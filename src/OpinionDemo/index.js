@@ -29,8 +29,8 @@ const peerDescriptionData = [{"name":"人","color":"rgb(44, 173, 177)","percent"
 // 最多被提及的特征 Top5
 const SORT_CURRENT_MENTIONED = [
     {
-        name: '执行',
-        num: 21 * CONST_RATIO_SELF,
+        name: '公司: 乱',
+        num: 28 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>在经营一家酒店时，敏锐的头脑、正确的策略和有效的<span className="highlight">执行</span>非常重要。</p>
@@ -39,8 +39,8 @@ const SORT_CURRENT_MENTIONED = [
         </div>
     },
     {
-        name: '创新',
-        num: 18 * CONST_RATIO_SELF,
+        name: '同事: 友好',
+        num: 26 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>不是很了解啊，就是刚听过宣讲会，觉得是一个注重品质，注重细节的企业，<span className="highlight">创新</span>也引领世茂走向了成功的转型。</p>
@@ -49,9 +49,8 @@ const SORT_CURRENT_MENTIONED = [
         </div>
     },
     {
-        name: '运营',
-        num:
-        14 * CONST_RATIO_SELF,
+        name: '同事: 友善',
+        num: 18 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>为什么愿意推荐朋友来这里工作？学习到的东西很多，这里的工作强度挺大的，全球化的<span className="highlight">运营</span>。但是大公司的福利什么的都挺好的，晋升机会也比较多。</p>
@@ -61,16 +60,16 @@ const SORT_CURRENT_MENTIONED = [
         </div>
     },
     {
-        name: '领军',
-        num: 12 * CONST_RATIO_SELF,
+        name: '领导: 平易近人',
+        num: 18 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>行业<span className="highlight">领军</span>人物对话:度假酒店新增长周期下的应对策略</p>
         </div>
     },
     {
-        name: '轻松',
-        num: 12 * CONST_RATIO_SELF,
+        name: '技术: 牛',
+        num: 16 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>培训比较多，工作比较<span className="highlight">轻松</span></p>
@@ -82,8 +81,8 @@ const SORT_CURRENT_MENTIONED = [
 // 企业独占的特征 Top5
 const SORT_CURRENT_SPECIAL = [
     {
-        name: '创新',
-        num: 18 * CONST_RATIO_SELF,
+        name: '同事: 友好',
+        num: 26 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>不是很了解啊，就是刚听过宣讲会，觉得是一个注重品质，注重细节的企业，<span className="highlight">创新</span>也引领世茂走向了成功的转型。</p>
@@ -92,9 +91,8 @@ const SORT_CURRENT_SPECIAL = [
         </div>
     },
     {
-        name: '运营',
-        num:
-        14 * CONST_RATIO_SELF,
+        name: '同事: 友善',
+        num: 18 * CONST_RATIO_SELF,
         desc:
             <div>
                 <p className="username">用户一：</p>
@@ -105,8 +103,8 @@ const SORT_CURRENT_SPECIAL = [
             </div>
     },
     {
-        name: '公益',
-        num: 10 * CONST_RATIO_SELF,
+        name: '工作: 枯燥',
+        num: 16 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>坚持以人为本的管理理念，将<span className="highlight">公益</span>项目落到实处，定期举行相关<span className="highlight">公益</span>关爱活动回报社会
@@ -116,8 +114,8 @@ const SORT_CURRENT_SPECIAL = [
         </div>
     },
     {
-        name: '友好',
-        num: 4 * CONST_RATIO_SELF,
+        name: '工作: 单一',
+        num: 16 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>为什么愿意推荐朋友来这里工作？入职的世茂浙江区域，正式录用前会有一个月左右的实习，主要任务是学习销售。公司同事都比较<span className="highlight">友好</span>，有些领导真的比较有能力，但是加班压力也比较大，房地产行业就是这个样子。</p>
@@ -126,8 +124,8 @@ const SORT_CURRENT_SPECIAL = [
         </div>
     },
     {
-        name: '便宜',
-        num: 2 * CONST_RATIO_SELF,
+        name: '公司: 有钱',
+        num: 16 * CONST_RATIO_SELF,
         desc: <div>
             <p className="username">用户一：</p>
             <p>公司都有哪些福利呢？（比如房补、交通补助、补充保险之类的）有什么特别优于其他公司的福利吗？五险一金，食宿<span className="highlight">便宜</span>。</p>
@@ -141,8 +139,8 @@ const SORT_CURRENT_SPECIAL = [
 // 同行 top5
 const SORT_PEER_MENTIONED = [
     {
-        name: '优化',
-        num: 30 * CONST_RATIO,
+        name: '人: 兴奋',
+        num: 18 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p> 在这里工作压力大吗？压力主要来源于哪些方面？不是太大，延续性项目，每次都是一写<span className="highlight">优化</span>需求；由于和甲方的关系比较好，需求量和进度这些都可以商量，哈哈哈。
@@ -153,8 +151,8 @@ const SORT_PEER_MENTIONED = [
         </div>
     },
     {
-        name: '入住',
-        num: 25 * CONST_RATIO,
+        name: '公司: 盈利',
+        num: 14 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p> 部分嘉宾在铂涛大厦合影留念
@@ -167,8 +165,8 @@ const SORT_PEER_MENTIONED = [
         </div>
     },
     {
-        name: '改进',
-        num: 24 * CONST_RATIO,
+        name: '工作: 有趣',
+        num: 12 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>公司晋升机制还算合理吧，但是有待<span className="highlight">改进</span>的地方，毕竟企业还在发展中。</p>
@@ -177,8 +175,8 @@ const SORT_PEER_MENTIONED = [
         </div>
     },
     {
-        name: '执行',
-        num: 18 * CONST_RATIO,
+        name: '公司: 节约',
+        num: 12 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>你觉得公司在行业中处于什么地位？未来发展前景如何？与同类公司相比优势在哪？中下游，前景不明，成本低，跟我导师有产学研合作项目，但是感觉研发水平一般，生产条件和水平一般，员工满意度和<span
@@ -189,8 +187,8 @@ const SORT_PEER_MENTIONED = [
         </div>
     },
     {
-        name: '轻松',
-        num: 15 * CONST_RATIO,
+        name: '人: 怀疑',
+        num: 12 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>为什么愿意推荐朋友来这里工作？因为学校气氛很好 不像其他地方那么复杂，与老师学生交流起来会<span className="highlight">轻松</span>很多，职位受人尊重，等等原因。</p>
@@ -201,8 +199,8 @@ const SORT_PEER_MENTIONED = [
 ];
 const SORT_PEER_SPECIAL = [
     {
-        name: '执行',
-        num: 18 * CONST_RATIO,
+        name: '公司: 盈利',
+        num: 14 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>你觉得公司在行业中处于什么地位？未来发展前景如何？与同类公司相比优势在哪？中下游，前景不明，成本低，跟我导师有产学研合作项目，但是感觉研发水平一般，生产条件和水平一般，员工满意度和<span
@@ -213,8 +211,8 @@ const SORT_PEER_SPECIAL = [
         </div>
     },
     {
-        name: '轻松',
-        num: 15 * CONST_RATIO,
+        name: '公司: 节约',
+        num: 12 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>为什么愿意推荐朋友来这里工作？因为学校气氛很好 不像其他地方那么复杂，与老师学生交流起来会<span className="highlight">轻松</span>很多，职位受人尊重，等等原因。</p>
@@ -223,8 +221,8 @@ const SORT_PEER_SPECIAL = [
         </div>
     },
     {
-        name: '喜欢',
-        num: 14 * CONST_RATIO,
+        name: '人: 怀疑',
+        num: 12 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>公司优点：我比较<span className="highlight">喜欢</span>学校文化，希望以后能有依然在学校的机会。 我会努力的。</p>
@@ -234,8 +232,8 @@ const SORT_PEER_SPECIAL = [
         </div>
     },
     {
-        name: '签署',
-        num: 13 * CONST_RATIO,
+        name: '公司: 值钱',
+        num: 11 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>7月17日，世茂与云南世博旅游控股集团有限公司<span className="highlight">签署</span>合作协议，并就推进特色小镇和城市建设，深化旅游文化、大健康产业等多领域合作进行交流。</p>
@@ -244,8 +242,8 @@ const SORT_PEER_SPECIAL = [
         </div>
     },
     {
-        name: '便利',
-        num: 12 * CONST_RATIO,
+        name: '人: 失望',
+        num: 10 * CONST_RATIO,
         desc: <div>
             <p className="username">用户一：</p>
             <p>交通<span className="highlight">便利</span>,只有死工资,体制僵化,个人发挥受限,按点上下班公司管理者水平太差了，原本一个有前景的公司快被他们搞垮了。</p>

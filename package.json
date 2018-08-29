@@ -1,5 +1,5 @@
 {
-  "name": "opinion-demo-shimao",
+  "name": "opinion-demo-jiuyang",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
     "antd": "^2.13.10",
     "classnames": "^2.2.5"
   },
-  "homepage": "https://wuhouz.github.io/opinion-demo-shimao",
+  "homepage": "https://wuhouz.github.io/opinion-demo-jiuyang",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
