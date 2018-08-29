@@ -1,19 +1,15 @@
 import React from 'react';
-
+import radio from '../radio'; // 系数
 // 最多被提及的特征 Top5
-const radio = 16; // 系数
-
 const mentioned = [
     {
         name: '人: 兴奋',
         num: 16 * radio,
         desc: <div>
             <p className="username">用户一：</p>
-            <p> 在这里工作压力大吗？压力主要来源于哪些方面？不是太大，延续性项目，每次都是一写<span className="highlight">优化</span>需求；由于和甲方的关系比较好，需求量和进度这些都可以商量，哈哈哈。
-            </p>
+            <p>因为心中有梦想而闪闪发光，我们每天都在为能够和这样的团队并肩战斗而<span className="highlight">兴奋</span>和自豪。</p>
             <p className="username">用户二：</p>
-            <p>你觉得公司在行业中处于什么地位？未来发展前景如何？与同类公司相比优势在哪？消费类电子产品的制造与研发，目前整体处于夕阳行业，远落后于主流的软件及互联网相关的行业；公司未来很难突破现状，改革创新风险太高，只能保守<span
-                className="highlight">优化</span>制造工艺及成本；与同类公司相比优势明显，有非常全面的加工设备及生产线，有广泛的供应商及客户，有稳定的利润收入，相对稳定很多。</p>
+            <p>并且根据用户的基本需求/期望需求/<span className="highlight">兴奋</span>点来提高用户的购买欲，一步一步引导用户，当然了，现在每一个消费者都非常精明，他也不是单一看完一个购买专题页就会掏钱买单。</p>
         </div>
     },
     {
@@ -21,13 +17,9 @@ const mentioned = [
         num: 12 * radio,
         desc: <div>
             <p className="username">用户一：</p>
-            <p> 部分嘉宾在铂涛大厦合影留念
-                本次业主私董会，酒店高参秉承活动内容创新原则，不仅仅在私董会为业主嘉宾提供专业的酒店投资内容，还将高度前瞻的理论内容和深度体验的品牌实践结合起来——12月16日，从品牌酒店体验<span
-                    className="highlight">入住</span>到带领众多酒店业主及投资人详细参观了国内酒店业最具创新意识的铂涛集团总部；同时带领所有酒店业主以铂涛秀邀请VIP嘉宾身份出席铂涛集团每年一度的酒店业唯一的大型“维密秀”——铂涛新品时尚秀。
-            </p>
+            <p>毕竟不是暴利行业，公司的<span className="highlight">兴奋</span>压力也是与日俱增，主要还是看个人的潜力和想法</p>
             <p className="username">用户二：</p>
-            <p>而宜尚Plus酒店在有限空间里整合了“FIKA”咖啡大堂、多功能餐厅、多项配套设施（健身房／洗衣房／独立会议室）等功能性空间，大大提升了<span className="highlight">入住</span>体验感。
-            </p>
+            <p>公司<span className="highlight">兴奋</span>能力应该不错，受宏观行业冲击影响也会比较小一些。</p>
         </div>
     },
     {
@@ -35,10 +27,9 @@ const mentioned = [
         num: 11 * radio,
         desc: <div>
             <p className="username">用户一：</p>
-            <p>公司晋升机制还算合理吧，但是有待<span className="highlight">改进</span>的地方，毕竟企业还在发展中。</p>
+            <p>制造业产能共享能够优化资源配置、<span className="highlight">节约</span>成本、促进产业链协同等，成为制造业企业转型过程中的重要抓手。</p>
             <p className="username">用户二：</p>
-            <p>公司一直在发展<span className="highlight">改进</span>，也做了许多工作，不得不说，公司能发展到现在这个规模，真的非常的不容易，可能就成本这块较市场偏低，但是看个人能力，踏实肯干的，公司也会对你的努力肯定。
-            </p>
+            <p>通过合理合法合规的方法如果能达到<span className="highlight">节约</span>成本固然好。但是如果这个行为的代价是违反法律的话，那你终究会付出惨痛代价。</p>
         </div>
     },
     {
@@ -46,22 +37,19 @@ const mentioned = [
         num: 11 * radio,
         desc: <div>
             <p className="username">用户一：</p>
-            <p>你觉得公司在行业中处于什么地位？未来发展前景如何？与同类公司相比优势在哪？中下游，前景不明，成本低，跟我导师有产学研合作项目，但是感觉研发水平一般，生产条件和水平一般，员工满意度和<span
-                className="highlight">执行</span>力不行，管理比较混乱，和落后，内部有矛盾。</p>
-            <p>在经营一家酒店时，敏锐的头脑、正确的策略和有效的<span className="highlight">执行</span>非常重要。</p>
+            <p>目前在博世成都实习，一样的岗位，薪酬却低到令人<span className="highlight">怀疑</span>人生，研究生和本科生薪酬一样，还要扣20%的税，平均下来每天80都不到。</p>
             <p className="username">用户二：</p>
-            <p>说说你在公司的工作经历对你产生了哪些影响？技能无增长，公司不提倡个人思考，只提倡<span className="highlight">执行</span>力和所谓的“忠诚度”。</p>
+            <p>我现在对这公司的诚信度产生<span className="highlight">怀疑</span>，他开出的12-20万的年薪可信度应该也不高，由此可见也不是什么规范的公司吧。</p>
         </div>
     },
     {
-        name: '人: 不爽',
+        name: '工作: 有趣',
         num: 10 * radio,
         desc: <div>
             <p className="username">用户一：</p>
-            <p>为什么愿意推荐朋友来这里工作？因为学校气氛很好 不像其他地方那么复杂，与老师学生交流起来会<span className="highlight">轻松</span>很多，职位受人尊重，等等原因。</p>
+            <p>正如在公司中,员工需要通过激励得到赏识、成就感、责任感一样,在做自己的事情时,对自身的及时、适当的"奖赏"也会使工作变得<span className="highlight">有趣</span>和有成就感。</p>
             <p className="username">用户二：</p>
-            <p>为什么看好公司未来半年发展？非常好，氛围<span className="highlight">轻松</span>，简单阳光，学校的环境还是比社会上其他职业的环境简单很多，强烈推荐不管男生女生都可以来这里工作，领导也不会咄咄逼人
-            </p>
+            <p>但是这家公司很<span className="highlight">有趣</span>，当新员工通过面试开始试用期的时候，HR会发给他一张游戏通关卡，新员工需要从通关卡上有限的信息里，在几百人的公司里找到一个特定的人。</p>
         </div>
     }
 ];

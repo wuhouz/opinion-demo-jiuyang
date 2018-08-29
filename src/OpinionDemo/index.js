@@ -22,12 +22,12 @@ import special_ao from './data/ao_smith/special.js'; // 企业独占的特性
 // import random_ao from './data/ao_smith/random.json'; // 加一些小点点
 
 // 美的  data_midea
-import data_midea from './data/ao_smith/data.js'; // 雇主数据
-import description_midea from './data/ao_smith/description.js'; // 坐标系下方ABCD四个象限的描述数据
-import legend_midea from './data/ao_smith/legend.js'; // 图例
-import mentioned_midea from './data/ao_smith/mentioned.js'; // 最多被提及的特性
-import special_midea from './data/ao_smith/special.js'; // 企业独占的特性
-// import random_midea from './data/ao_smith/random.json'; // 加一些小点点
+import data_midea from './data/midea/data.js'; // 雇主数据
+import description_midea from './data/midea/description.js'; // 坐标系下方ABCD四个象限的描述数据
+import legend_midea from './data/midea/legend.js'; // 图例
+import mentioned_midea from './data/midea/mentioned.js'; // 最多被提及的特性
+import special_midea from './data/midea/special.js'; // 企业独占的特性
+// import random_midea from './data/midea/random.json'; // 加一些小点点
 
 // 行业数据
 import data_peer from './data/peer/data.js'; // 雇主数据
@@ -64,7 +64,7 @@ export default class extends PureComponent {
                                         <Icon type="info_round"/>
                                     </Tooltip>
                                 </div>
-                                <div className="number-value">300,103</div>
+                                <div className="number-value">675,088</div>
                             </div>
                             <Statistics/>
                         </div>
