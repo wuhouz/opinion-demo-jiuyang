@@ -2,22 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2645bb62-b798-4b7f-a58c-6ed9527549ba" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/radio.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" afterPath="$PROJECT_DIR$/build/asset-manifest.json" />
       <change beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change beforePath="$PROJECT_DIR$/build/service-worker.js" afterPath="$PROJECT_DIR$/build/service-worker.js" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.90db12b0.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.90db12b0.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.e7ca878e.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.e7ca878e.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/node_modules/gh-pages/.cache/aHR0cHM6Ly9naXRodWIuY29tL3d1aG91ei9vcGluaW9uLWRlbW8taml1eWFuZy5naXQ" afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache/aHR0cHM6Ly9naXRodWIuY29tL3d1aG91ei9vcGluaW9uLWRlbW8taml1eWFuZy5naXQ" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/mentioned.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/mentioned.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/special.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/special.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/mentioned.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/mentioned.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/midea/mentioned.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/midea/mentioned.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/midea/special.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/midea/special.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/peer/mentioned.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/peer/mentioned.js" />
-      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/peer/special.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/peer/special.js" />
+      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/Employer/index.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/Employer/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/description.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js" />
+      <change beforePath="$PROJECT_DIR$/src/OpinionDemo/data/midea/description.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/data/peer/description.js" />
       <change beforePath="$PROJECT_DIR$/src/OpinionDemo/index.js" afterPath="$PROJECT_DIR$/src/OpinionDemo/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,18 +30,30 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OpinionDemo/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="description.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="special.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js">
+      <file leaf-file-name="description.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/peer/description.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="441">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -141,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/peer/data.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/peer/legend.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/radio.js" />
-        <option value="$PROJECT_DIR$/src/OpinionDemo/index.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/mentioned.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/ao_smith/special.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/peer/mentioned.js" />
@@ -150,6 +156,10 @@
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/midea/special.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/mentioned.js" />
         <option value="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js" />
+        <option value="$PROJECT_DIR$/src/OpinionDemo/Employer/index.js" />
+        <option value="$PROJECT_DIR$/src/OpinionDemo/index.js" />
+        <option value="$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js" />
+        <option value="$PROJECT_DIR$/src/OpinionDemo/data/peer/description.js" />
       </list>
     </option>
   </component>
@@ -173,9 +183,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="828" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -248,7 +257,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="OpinionDemo" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="ao_smith" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opinion-demo-jiuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opinion-demo-jiuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OpinionDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="jiuyang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opinion-demo-jiuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opinion-demo-jiuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OpinionDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="midea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opinion-demo-jiuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opinion-demo-jiuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OpinionDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="peer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="opinion-demo-jiuyang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="opinion-demo-jiuyang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="OpinionDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Employer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,13 +310,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/OpinionDemo/data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/OpinionDemo/data/peer" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/OpinionDemo/data" />
       <recent name="$PROJECT_DIR$/src/OpinionDemo/data/peerData" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/OpinionDemo/data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,15 +347,16 @@
       <updated>1535446021517</updated>
       <workItem from="1535446022945" duration="4103000" />
       <workItem from="1535514204223" duration="4544000" />
-      <workItem from="1535525825092" duration="3391000" />
+      <workItem from="1535525825092" duration="5637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12038000" />
+    <option name="totallyTimeSpent" value="14284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -324,7 +366,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3084577" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24129353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -439,7 +481,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5842">
           <caret line="254" column="0" lean-forward="false" selection-start-line="254" selection-start-column="0" selection-end-line="254" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -512,13 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/random.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -577,14 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
           <caret line="844" column="14" lean-forward="false" selection-start-line="844" selection-start-column="14" selection-end-line="844" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/Employer/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -676,18 +705,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/index.js">
+    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="65" column="21" lean-forward="false" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="115">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/special.js">
+    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/Employer/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="396">
+          <caret line="97" column="43" lean-forward="true" selection-start-line="97" selection-start-column="43" selection-end-line="97" selection-end-column="43" />
+          <folding>
+            <element signature="n#Item#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="99" column="34" lean-forward="false" selection-start-line="99" selection-start-column="34" selection-end-line="99" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/jiuyang/description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OpinionDemo/data/peer/description.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding />
         </state>
       </provider>

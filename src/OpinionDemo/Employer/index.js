@@ -92,13 +92,15 @@ export default class extends PureComponent {
                         <Distribution data={sort_special}/>
                     </div>
                 </div>
-                <div className="employer-analyse">
-                    {desData.map((item) => <Item
-                        key={item.name}
-                        openedName={openedName}
-                        activeItemFn={this.toggleZone}
-                        data={item}/>)}
-                </div>
+                {desData ?
+                    <div className="employer-analyse">
+                        {desData.map((item) => <Item
+                            key={item.name}
+                            openedName={openedName}
+                            activeItemFn={this.toggleZone}
+                            data={item}/>)}
+                    </div> :
+                    null}
             </div>
         );
     }

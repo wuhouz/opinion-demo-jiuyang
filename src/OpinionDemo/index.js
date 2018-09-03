@@ -15,7 +15,6 @@ import random_jiuyang from './data/jiuyang/random.json'; // 加一些小点点
 
 // AO 史密斯
 import data_ao from './data/ao_smith/data.js'; // 雇主数据
-import description_ao from './data/ao_smith/description.js'; // 坐标系下方ABCD四个象限的描述数据
 import legend_ao from './data/ao_smith/legend.js'; // 图例
 import mentioned_ao from './data/ao_smith/mentioned.js'; // 最多被提及的特性
 import special_ao from './data/ao_smith/special.js'; // 企业独占的特性
@@ -23,7 +22,6 @@ import special_ao from './data/ao_smith/special.js'; // 企业独占的特性
 
 // 美的  data_midea
 import data_midea from './data/midea/data.js'; // 雇主数据
-import description_midea from './data/midea/description.js'; // 坐标系下方ABCD四个象限的描述数据
 import legend_midea from './data/midea/legend.js'; // 图例
 import mentioned_midea from './data/midea/mentioned.js'; // 最多被提及的特性
 import special_midea from './data/midea/special.js'; // 企业独占的特性
@@ -86,7 +84,7 @@ export default class extends PureComponent {
                             <TabPane tab="AO史密斯" key="2">
                                 <Employer
                                     data={data_ao}
-                                    desData={description_ao}
+                                    desData={null}
                                     sort_mentioned={mentioned_ao}
                                     sort_special={special_ao}
                                     descriptionData={legend_ao}
@@ -95,7 +93,7 @@ export default class extends PureComponent {
                             <TabPane tab="美的电器" key="3">
                                 <Employer
                                     data={data_midea}
-                                    desData={description_midea}
+                                    desData={null}
                                     sort_mentioned={mentioned_midea}
                                     sort_special={special_midea}
                                     descriptionData={legend_midea}
